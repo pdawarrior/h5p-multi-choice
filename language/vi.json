@@ -1,46 +1,43 @@
-{
+﻿{
   "semantics": [
     {
-      "label": "Media",
+      "label": "Đa phương tiện",
       "fields": [
         {
-          "label": "Type",
-          "description": "Optional media to display above the question."
-        },
-        {
-          "label": "Disable image zooming"
+          "label": "Loại",
+          "description": "Đa phương tiện tùy chọn để hiển thị phía trên câu hỏi."
         }
       ]
     },
     {
-      "label": "Question"
+      "label": "Câu hỏi"
     },
     {
-      "label": "Available options",
+      "label": "Tùy chọn khả dụng",
       "entity": "option",
       "field": {
-        "label": "Option",
+        "label": "Tùy chọn",
         "fields": [
           {
-            "label": "Text"
+            "label": "Văn bản"
           },
           {
-            "label": "Correct"
+            "label": "Đúng"
           },
           {
-            "label": "Tips and feedback",
+            "label": "Gợi ý và phản hồi",
             "fields": [
               {
-                "label": "Tip text",
-                "description": "Hint for the user. This will appear before user checks his answer/answers."
+                "label": "Văn bản gợi ý",
+                "description": "Gợi ý cho người dùng. Điều này sẽ xuất hiện trước khi người dùng kiểm tra câu trả lời/những câu trả lời của mình."
               },
               {
-                "label": "Message displayed if answer is selected",
-                "description": "Message will appear below the answer on \"check\" if this answer is selected."
+                "label": "Thông báo được hiển thị nếu câu trả lời được chọn",
+                "description": "Tin nhắn sẽ xuất hiện bên dưới câu trả lời trên \"kiểm tra\" nếu câu trả lời này được chọn."
               },
               {
-                "label": "Message displayed if answer is not selected",
-                "description": "Message will appear below the answer on \"check\" if this answer is not selected."
+                "label": "Thông báo được hiển thị nếu câu trả lời không được chọn",
+                "description": "Tin nhắn sẽ xuất hiện bên dưới câu trả lời trên \"kiểm tra\" nếu câu trả lời này không được chọn."
               }
             ]
           }
@@ -48,26 +45,26 @@
       }
     },
     {
-      "label": "Overall Feedback",
+      "label": "Phản hồi tổng thể",
       "fields": [
         {
           "widgets": [
             {
-              "label": "Default"
+              "label": "Mặc định"
             }
           ],
-          "label": "Define custom feedback for any score range",
-          "description": "Example: 0-20% Bad score, 21-91% Average Score, 91-100% Great Score!",
+          "label": "Xác định phản hồi tùy chỉnh cho bất kỳ thang điểm nào",
+          "description": "Ví dụ: 0-20% Điểm xấu, 21-91% Điểm trung bình, 91-100% Điểm tuyệt vời!",
           "entity": "range",
           "field": {
             "fields": [
               {
-                "label": "Score Range"
+                "label": "Thang điểm"
               },
               {},
               {
-                "label": "Feedback for defined score range",
-                "placeholder": "Fill in the feedback"
+                "label": "Phản hồi cho thang điểm được xác định",
+                "placeholder": "Điền vào phản hồi"
               }
             ]
           }
@@ -75,166 +72,169 @@
       ]
     },
     {
-      "label": "User interface translations for multichoice",
+      "label": "Bản dịch giao diện người dùng cho nhiều lựa chọn",
       "fields": [
         {
-          "label": "Check answer button label",
-          "default": "Check"
+          "label": "Kiểm tra nhãn nút trả lời",
+          "default": "Kiểm tra"
         },
         {
-          "label": "Show solution button label",
-          "default": "Show solution"
+          "label": "Hiển thị nhãn nút lời giải",
+          "default": "Hiển thị lời giải"
         },
         {
-          "label": "Retry button label",
-          "default": "Retry"
+          "label": "Nhãn nút thử lại",
+          "default": "Thử lại"
         },
         {
-          "label": "Tip label",
-          "default": "Show tip"
+          "label": "Nhãn gợi ý",
+          "default": "Hiển thị gợi ý"
         },
         {
-          "label": "Textual representation of the score bar for those using a readspeaker",
-          "description": "Available variables are :num and :total",
-          "default": "You got :num out of :total points"
+          "label": "Biểu diễn văn bản của thanh điểm cho những người sử dụng bộ đọc",
+          "description": "Các biến có sẵn là :num và :total",
+          "default": "Bạn đã nhận :num trong :total điểm"
         },
         {
-          "label": "Tip Available (not displayed)",
-          "default": "Tip available",
-          "description": "Accessibility text used for readspeakers"
+          "label": "Gợi ý khả dụng (không hiển thị)",
+          "default": "Gợi ý có sẵn",
+          "description": "Văn bản trợ năng được sử dụng cho người đọc"
         },
         {
-          "label": "Feedback Available (not displayed)",
-          "default": "Feedback available",
-          "description": "Accessibility text used for readspeakers"
+          "label": "Phản hồi có sẵn (không hiển thị)",
+          "default": "Phản hồi có sẵn",
+          "description": "Văn bản trợ năng được sử dụng cho người đọc"
         },
         {
-          "label": "Read Feedback (not displayed)",
-          "default": "Read feedback",
-          "description": "Accessibility text used for readspeakers"
+          "label": "Đọc phản hồi (không hiển thị)",
+          "default": "Đọc phản hồi",
+          "description": "Văn bản trợ năng được sử dụng cho người đọc"
         },
         {
-          "label": "Wrong Answer (not displayed)",
-          "default": "Wrong answer",
-          "description": "Accessibility text used for readspeakers"
+          "label": "Trả lời sai (không hiển thị)",
+          "default": "Trả lời sai",
+          "description": "Văn bản trợ năng được sử dụng cho người đọc"
         },
         {
-          "label": "Correct Answer (not displayed)",
-          "default": "Correct answer",
-          "description": "Accessibility text used for readspeakers"
+          "label": "Câu trả lời đúng (không hiển thị)",
+          "default": "Câu trả lời đúng",
+          "description": "Văn bản trợ năng được sử dụng cho người đọc"
         },
         {
-          "label": "Option should have been checked",
-          "default": "Should have been checked"
+          "label": "Tùy chọn nên được kiểm tra",
+          "default": "Đáng lẽ phải được kiểm tra"
         },
         {
-          "label": "Option should not have been checked",
-          "default": "Should not have been checked"
+          "label": "Không nên chọn tùy chọn",
+          "default": "Không nên được kiểm tra"
         },
         {
-          "label": "Text for \"Requires answer\" message",
-          "default": "Please answer before viewing the solution"
+          "label": "Văn bản cho \"Yêu cầu trả lời\"tin nhắn",
+          "default": "Vui lòng trả lời trước khi xem lời giải"
         }
       ]
     },
     {
-      "label": "Behavioural settings",
-      "description": "These options will let you control how the task behaves.",
+      "label": "Cài đặt hành vi",
+      "description": "Các tùy chọn này sẽ cho phép bạn kiểm soát cách thức thực hiện tác vụ.",
       "fields": [
         {
-          "label": "Enable \"Retry\" button"
+          "label": "Kích hoạt nút \"Thử lại\""
         },
         {
-          "label": "Enable \"Show Solution\" button"
+          "label": "Bật \"Hiển thị nút\"Giải pháp"
         },
         {
-          "label": "Enable \"Check\" button"
+          "label": "Kích hoạt nút \"Kiểm tra\""
         },
         {
-          "label": "Question Type",
-          "description": "Select the look and behaviour of the question.",
+          "label": "Loại câu hỏi",
+          "description": "Chọn giao diện và hành vi của câu hỏi.",
           "options": [
             {
-              "label": "Automatic"
+              "label": "Tự động"
             },
             {
-              "label": "Multiple Choice (Checkboxes)"
+              "label": "Nhiều lựa chọn (Hộp kiểm)"
             },
             {
-              "label": "Single Choice (Radio Buttons)"
+              "label": "Lựa chọn duy nhất (Nút radio)"
             }
           ]
         },
         {
-          "label": "Give one point for the whole task",
-          "description": "Enable to give a total of one point for multiple correct answers. This will not be an option in \"Single answer\" mode."
+          "label": "Cho một điểm cho toàn bộ nhiệm vụ",
+          "description": "Cho phép đưa ra tổng cộng một điểm cho nhiều câu trả lời đúng. Đây không phải là một tùy chọn trong chế độ \"Trả lời đơn\"."
         },
         {
-          "label": "Randomize answers",
-          "description": "Enable to randomize the order of the answers on display."
+          "label": "Chọn ngẫu nhiên câu trả lời",
+          "description": "Kích hoạt để ngẫu nhiên hóa thứ tự các câu trả lời được hiển thị."
         },
         {
-          "label": "Require answer before the solution can be viewed"
+          "label": "Yêu cầu câu trả lời trước khi có thể xem lời giải"
+		},
+        {
+          "label": "Tắt thu phóng cho hình ảnh câu hỏi"
         },
         {
-          "label": "Show confirmation dialog on \"Check\""
+          "label": "Hiển thị hộp thoại xác nhận trên \"Kiểm tra\""
         },
         {
-          "label": "Show confirmation dialog on \"Retry\""
+          "label": "Hiển thị hộp thoại xác nhận trên \"Thử lại\""
         },
         {
-          "label": "Automatically check answers",
-          "description": "Enabling this option will make accessibility suffer, make sure you know what you're doing."
+          "label": "Tự động kiểm tra câu trả lời",
+          "description": "Kích hoạt tùy chọn này sẽ khiến khả năng truy cập bị ảnh hưởng, đảm bảo bạn biết bạn đang làm gì."
         },
         {
-          "label": "Pass percentage",
-          "description": "This setting often won't have any effect. It is the percentage of the total score required for getting 1 point when one point for the entire task is enabled, and for getting result.success in xAPI statements."
+          "label": "Đạt tỷ lệ phần trăm",
+          "description": "Cài đặt này thường sẽ không có hiệu lực. Đó là tỷ lệ phần trăm của tổng số điểm cần thiết để có được 1 điểm khi một điểm cho toàn bộ tác vụ được bật và để nhận kết quả. Thành công trong các câu lệnh xAPI."
         },
         {
-          "label": "Show score points",
-          "description": "Show points earned for each answer."
+          "label": "Hiển thị điểm số",
+          "description": "Hiển thị điểm kiếm được cho mỗi câu trả lời."
         }
       ]
     },
     {
-      "label": "Check confirmation dialog",
+      "label": "Kiểm tra hộp thoại xác nhận",
       "fields": [
         {
-          "label": "Header text",
-          "default": "Finish ?"
+          "label": "Văn bản tiêu đề",
+          "default": "Kết thúc?"
         },
         {
-          "label": "Body text",
-          "default": "Are you sure you wish to finish ?"
+          "label": "Văn bản nội dung",
+          "default": "Bạn có chắc chắn muốn hoàn thành?"
         },
         {
-          "label": "Cancel button label",
-          "default": "Cancel"
+          "label": "Nhãn nút hủy",
+          "default": "Hủy"
         },
         {
-          "label": "Confirm button label",
-          "default": "Finish"
+          "label": "Nhãn nút xác nhận",
+          "default": "Kết thúc"
         }
       ]
     },
     {
-      "label": "Retry confirmation dialog",
+      "label": "Hộp thoại xác nhận thử lại",
       "fields": [
         {
-          "label": "Header text",
-          "default": "Retry ?"
+          "label": "Văn bản tiêu đề",
+          "default": "Thử lại?"
         },
         {
-          "label": "Body text",
-          "default": "Are you sure you wish to retry ?"
+          "label": "Văn bản nội dung",
+          "default": "Bạn có chắc chắn muốn thử lại không?"
         },
         {
-          "label": "Cancel button label",
-          "default": "Cancel"
+          "label": "Nhãn nút hủy",
+          "default": "Hủy"
         },
         {
-          "label": "Confirm button label",
-          "default": "Confirm"
+          "label": "Nhãn nút xác nhận",
+          "default": "Xác nhận"
         }
       ]
     }
